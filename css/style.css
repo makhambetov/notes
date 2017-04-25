@@ -1,0 +1,178 @@
+
+.row{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.container{
+	width: 100%;
+	padding: 0
+}
+.header{
+	width: 100%;
+	height: 77px;
+	border-bottom: 1px solid #ccc;
+	padding:10px 5px;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	background: #fff;
+}
+
+.content{
+	margin-top: 77px;
+}
+
+h4{
+	margin: 0;
+}
+.note-wrapper{
+	border-bottom: 1px #ccc solid;
+	margin: 0;
+	padding: 5px 0;
+}
+.note-wrapper p{
+	margin: 0;
+}
+.note-content{
+	margin: 0;
+	padding: 0;
+}
+.note-header{
+	margin: 0;
+}
+
+.note-preview{
+	color: #999
+}
+
+.note-wrapper:hover{
+	cursor: pointer;
+	background: #BBEEFF;
+}
+
+.footer{
+	height: 40px;
+	padding: 5px;
+	border-top: 1px solid #ccc;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+}
+.footer p{
+	text-align: center;	
+	margin: 5px 0;
+}
+
+.menu a{
+	text-decoration: none;
+	float: right;
+	margin: 5px 0;
+	padding-right: 10px;
+	line-height: 40px;
+}
+a:hover, a:visited, a:active{
+	text-decoration: none;
+}
+.menu a:visited, .menu a:active, .footer a:active{
+	color: #E4AF0A;
+}
+
+.header .col-xs-4{
+	padding: 0;
+}
+.header .col-xs-4 img{
+	margin: 6px 0;
+}
+.note-btns {
+	padding: 0;
+}
+.delete_note{
+	margin: 9px auto;
+	float: right;
+	color: red;
+}
+
+.glyphicon{
+	margin: 0;
+	padding-right: 10px;
+}
+.glyphicon-edit{
+	color: #E4AF0A;
+	font-size: 1.5em;
+}
+.glyphicon-plus{
+	color: #E4AF0A;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	float: right;
+	font-size: 1.5em;
+}
+
+.glyphicon-remove{
+	color: red;
+	padding: 0;
+	margin-right: 10px
+}
+.glyphicon-remove:hover{
+	//border: 1px #1B96FE solid;
+	background: black;
+	border-radius: 3px;
+}
+
+//.delete_note, h4, .note-preview{
+	border: red 1px solid;
+}
+
+.current_user{
+	//bottom: 0;
+	//top: 15px;
+	//left: 300px;
+	margin-top: 10px;
+	font-size: 1.5em;
+	//z-index: 3
+}
+.user_link{
+	display: inline;
+}
+
+
+
+
+
+
+@media only screen
+and(min-device-width: 320px)
+and(max-device-width: 568px){
+
+	.header {
+    	height: 60px; 
+	}
+	.content{
+		margin-top: 60px;
+	}
+	.current_user{
+		font-size: 1.2em;
+		text-align: center;
+		margin: -5px 30px 0px 0;
+		padding: 0;
+	}
+	.user_link{
+		display: block;
+	}
+	.vert_del{
+		display: none;
+	}
+	a.delete{
+		margin: 5px auto;
+	}
+	.glyphicon-remove{
+	font-size: 1.5em;
+	}
+	.glyphicon.glyphicon-edit{
+		padding: 0 0;
+		margin: 0;
+	}
+}
+
